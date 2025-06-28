@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.rotate{
+    animation: thala 5s infinite linear;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+@keyframes thala{
+    from{
+        transform: rotate(0) ;
+    }
+    to{
+       transform: rotate(360deg) ;
+    }
+}
+
+.price-cart{
+    height: 30px;
+    overflow: hidden;
+}
+.price-cart span{
+    display: block;
+    transition: 1s;
+}
+
+.product-card:hover .price-cart span{
+    transform: translateY(-20px);
+}
+.i-tag{
+    font-size: 30px;
+}
+.firt-card{
+    display: block;
+    transition: 2s;
+} 
+.firt-card .dis-card{
+    height: 45px;
+    overflow: hidden;
+ }
+ .firt-card .dis-card span{
+    display: block;
+    font-size: 2rem;
+    transition: .5s;
+ }
+ .firt-card:hover .dis-card span{
+    transform: translateY(-65px);
+ }
+ .dis-card span a{
+    font-size: 16px;
+ }
+
+ .out{
+    width: 500px;
+    margin: 0 auto;
+ }
+ .out input{
+    width: 100%;
+ }
+
+
+ .follow button{
+    background-color: rgb(255, 255, 255);
+    color: azure;
+ }
+
+ .follow{
+    position: relative;
+    top: -20px;
+ }
+ 
